@@ -29,3 +29,7 @@
 .pr-1-2{
     padding-right:0.25rem
 }
+
+.text-red{
+    color:var(--red-btn) !important;
+}
