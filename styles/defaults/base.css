@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'sq-markets';
+    src: url('/assets/fonts/SQ-Market-Regular-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'sq-markets-bold';
+    src: url('/assets/fonts/SQ-Market-Bold-Bold.ttf');
+}
+
+body{
+    font-family: 'sq-markets', 'sans-serif';
+    margin: 0;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.relative{
+    position:relative
+}
+
+.absolute{
+    position: absolute;
+}

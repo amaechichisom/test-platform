@@ -1,0 +1,15 @@
+.hoc-x{
+    padding:0 3rem;
+}
+
+@media only screen and (max-width:900px) {
+    .hoc-x{
+        padding:0 2rem;
+    }
+  }
+
+  @media only screen and (max-width:400px) {
+    .hoc-x{
+        padding:0 1rem;
+    }
+  }

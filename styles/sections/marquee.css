@@ -1,0 +1,47 @@
+
+
+.nav__marquee{
+    background-color: var(--marquee);
+    padding:0.2rem 0 ;
+    
+}
+
+.marquee__overlay{
+    display: flex;
+    align-items: center;
+}
+
+.marquee__card{
+    width:6rem;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    font-size: 0.8rem;
+    margin-right:1.5rem;
+}
+
+.marquee__card > h3{
+    font-size: 0.8rem;
+    font-weight: 600;
+    color:white
+
+}
+
+.marquee__card__uptrend{
+    margin:0 0.4rem
+}
+
+.marquee__card__up-percent{
+    font-family: 'sq-markets', 'sans-serif';
+    color:var(--green-btn);
+    font-weight: 800;
+
+}
+
+
+.marquee__card__down-percent{
+    color:var(--red-btn);
+    font-weight: 700;
+
+}
